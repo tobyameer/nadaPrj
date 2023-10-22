@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+html{
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+    width: 100px;
+}
+.why{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+img{
+    box-shadow: 3px 4px 10px 3px black;
+}
