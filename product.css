@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+html{
+    background-image: url("background.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+    font-size: 40px;
+}
+body{
+    height: 100vh;
+}
+
+.logo{
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+    width: 100px;
+}
+img{
+    box-shadow: 3px 4px 10px 3px black;
+}
+
+
+.honey{
+    width: 400px;
+}
+
+.info p{
+    font-size: 20px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 3px 4px 10px 3px black;
+    width: 800px;
+    height: 400px;
+    line-height: 50px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
